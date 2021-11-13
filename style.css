@@ -5,9 +5,18 @@ body{
   display: flex;
   justify-content: center;
 }
-.status-bar_column[
+.status-bar_column{
   width: 33%;
-]
+}
 .status-bar_column:first-child span{
   margin-right: 5px;
+}
+.status-bar_column:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+  }
+.status-bar_column:last-child{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
