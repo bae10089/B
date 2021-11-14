@@ -4,3 +4,11 @@
 body{
   font-family: 'Open Sans', sans-serif;
 
+
+.welcom-header{
+  margin-top: 145px;
+  text-align: center;
+  }
+.welcome-header_title{
+  margin-bottom: 50px;
+}
