@@ -1,0 +1,11 @@
+.user-component{
+  display:flex;
+}
+.user-component_column:first-child{
+  display:flex;
+}
+.user-component_avater{
+  width:70px;
+  height:70px;
+  border-radius: 30px;
+}
