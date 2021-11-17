@@ -1,11 +1,15 @@
-.user-component{
-  display:flex;
-}
+.user-component,
 .user-component_column:first-child{
   display:flex;
+  align-items: center;
 }
 .user-component_avater{
   width:70px;
   height:70px;
-  border-radius: 30px;
+  border-radius: 27px;
+  margin-right: 20px;
+}
+.user-component_title{
+  font-weight:600;
+  font-size:22px;
 }
