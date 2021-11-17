@@ -13,3 +13,8 @@
   font-weight:600;
   font-size:22px;
 }
+.user-component_subtitle{
+  margin-top: 8px;
+  font-size: 17px;
+  color:(0, 0, 0, 0.5);
+}
