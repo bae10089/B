@@ -1,90 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+  </head>
 
-<head>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Friends - Kokoa Clone</title>
-</head>
-
-<body>
-	<div class="status-bar">
-		<div class="status-bar_column">
-			<Span>No service</Span>
-      <i class="fas fa-wifi"></i>
-      <!-- To Do: Wifi Icon -->
-    </div>
-    <div class="status-bar_column">
-      <span>18:43</span>
-    </div>
-    <div class="status-bar_column">
-      <span>110%</span>
-      <i class="fas fa-battery-full fa-lg"></i>
-      <i class="fas fa-bolt"></i>
-      <!-- Battery Icon -->
-      <!-- Lightning Icon-->
-    </div>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar_column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar_column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar_column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+        <!-- Battery Icon -->
+        <!-- Lightning Icon-->
+      </div>
     </div>
 
-<header class="screen-header">
-   <h1 class="screen-header_title">Friends</h1>
-  <div class="screen-header_icons">
-    <span><i class="fas fa-search fa-lg"></i></span>
-    <span><i class="fas fa-music fa-lg"></i></span>
-    <span><i class="fas fa-cog fa-lg"></i></span>
-  </div>
-</header>
-  <a id="friends-display_link">
-    <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-sm"></i>
-  </a>
-  
-<main class="friends-screen">
-<div class="user-component">
-  <div class="user-component_column">
-    <img src="pic1.jpeg" class="user-component_avatar user-component_avatar-xl"/>
-    <div class="user-component_text">
-   <h4 class="user-component_title">Yuhyun</h4>
-      <!--<h6 class="user-component_subtitle">text</h6>!-->
-     </div>
-</div>
-<div class="user-component_column"></div>
-</div>
-  <div class="friends-screen_channel">
-    <div class="friends-screen_channel-header">
-      <span>Channel</span>
-      <i class="fas fa-chevron-up fa-sm"></i>
-    </div>
-    <div class="user-component">
-      <div class="user-component_column">
-        <img src="pic3.jpg" class="user-component_avatar user-component_avatar-sm"/>
-        <div class="user-component_text">
-       <h4 class="user-component_title user-component_title-not-bold">Channel</h4>
-          <!--<h6 class="user-component_subtitle">text</h6>!-->
-         </div>
-    </div>
-    <div class="user-component_column">
-      <div>
-      <span>2</span>
+    <header class="screen-header">
+      <h1 class="screen-header_title">Friends</h1>
+      <div class="screen-header_icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+    <a id="friends-display_link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
       <i class="fas fa-chevron-right fa-sm"></i>
-    </div>
-    </div>
-    </div>
-  </div>
-</main>
-<nav class="nav">
-  <ul class="nav_list">
-    <li class="nav_btn">
-      <a class="nav_link" href="friends.html"><i class="fas fa-user fa-2x"></i></a></li>
-    <li class="nav_btn">
-      <a class="nav_link" href="chats.html"><span class="nav_notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>   
-  <li class="nav_btn">
-    <a class="nav_link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li> 
-    <li class="nav_btn">
-      <a class="nav_link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
-  </ul>
-</nav>
+    </a>
 
-<script src="https://kit.fontawesome.com/c015398c58.js" crossorigin="anonymous"></script>
-</body>
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component_column">
+          <img
+            src="pic1.jpeg"
+            class="user-component_avatar user-component_avatar-xl"
+          />
+          <div class="user-component_text">
+            <h4 class="user-component_title">Yuhyun</h4>
+            <!--<h6 class="user-component_subtitle">text</h6>!-->
+          </div>
+        </div>
+        <div class="user-component_column"></div>
+      </div>
+      <div class="friends-screen_channel">
+        <div class="friends-screen_channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-sm"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component_column">
+            <img
+              src="pic3.jpg"
+              class="user-component_avatar user-component_avatar-sm"
+            />
+            <div class="user-component_text">
+              <h4 class="user-component_title user-component_title-not-bold">
+                Channel
+              </h4>
+              <!--<h6 class="user-component_subtitle">text</h6>!-->
+            </div>
+          </div>
+          <div class="user-component_column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-sm"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="nav">
+      <ul class="nav_list">
+        <li class="nav_btn">
+          <a class="nav_link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="chats.html"
+            ><span class="nav_notification badge">1</span
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav_btn">
+          <a class="nav_link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/c015398c58.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
