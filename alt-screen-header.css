@@ -11,4 +11,12 @@
 }
 .alt-header_column span:last-child{
     margin-left: 20px;
+  display: flex;
+  justify-content:flex-end;
+}
+.alt-header_column span:nth-child(2){
+  text-align:center;
+}
+.alt-header_column {
+  width:33%;
 }
