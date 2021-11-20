@@ -38,34 +38,40 @@
       </div>
     </header>
 
-    <main class="main-screen">
-     
+    <main class="main-screen main-chat">
+      <div class="chat_timestamp">Samstag , August 21, 2021</div>
+      <div class="messag-row">
+        <a href="pic6.jpg"><img src="pic6.jpg" /></a>
+        <div class="message-row_content">
+          <span class="massage_author">Yuhyun</span>
+          <div class="message_info">
+            <span class="message_bubble">>_<</span>
+            <div class="message_time">21:27</div>
+          </div>
+        </div>
+      </div>
+      <div class="messag-row messag-row-own">
+        <div class="message-row_content">
+          <div class="message_info">
+            <span class="message_bubble">! _ !</span>
+            <div class="message_time">21:27</div>
+          </div>
+        </div>
+      </div>
     </main>
-    <nav class="nav">
-      <ul class="nav_list">
-        <li class="nav_btn">
-          <a class="nav_link" href="friends.html"
-            ><i class="far fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav_btn">
-          <a class="nav_link" href="chats.html"
-            ><span class="nav_notification badge">1</span
-            ><i class="far fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav_btn">
-          <a class="nav_link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav_btn">
-          <a class="nav_link" href="more.html"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply_column">
+        <input type="text" placeholder="Write a massege" />
+        <i class="far fa-smile-wink"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/c015398c58.js"
