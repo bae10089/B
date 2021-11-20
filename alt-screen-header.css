@@ -9,4 +9,6 @@
   font-size: 32px;
   font-weight: 600;
 }
-
+.alt-header_column span:last-child{
+    margin-left: 20px;
+}
