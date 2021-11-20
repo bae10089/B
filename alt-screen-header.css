@@ -22,12 +22,12 @@
   text-align: center;
 }
 
-.alt-header__column:last-child {
+.alt-header_column:last-child {
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
 }
 
-.alt-header__column span:last-child {
+.alt-header_column span:last-child {
   margin-left: 20px;
 }

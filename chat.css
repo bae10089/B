@@ -8,3 +8,6 @@
   width: 100%;
   box-sizing: border-box;
 }
+#chat-screen .alt-header{
+  top: 10px;
+}
